@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Config -->
+    <script src="tailwind.config.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Homepage</title>
+</head>
+<body class="bg-background">
+    <main class="h-screen">
+        <nav class="grid grid-cols-3 p-4">
+            <div class="flex items-center">
+                <h1 class="text-lg font-bold drop-shadow-lg">
+                    <span class="text-primary">Lolazy</span>Travel
+                </h1>
+            </div>
+            <div class="flex justify-center items-center divide-x-2 divide-black ">
+                <div class="px-4 cursor-pointe drop-shadow-lg">
+                    การจอง
+                </div>
+                <div class="px-4 cursor-pointer drop-shadow-lg">
+                    โปรโมชั่น
+                </div>
+                <div class="px-4 cursor-pointer drop-shadow-lg">
+                    ช่วยเหลือ
+                </div>
+                <div class="px-4 cursor-pointer drop-shadow-lg">
+                    อื่นๆ
+                </div>
+            </div>
+            <div class="flex space-x-4 justify-end">
+                <div class="flex space-x-4">
+                    <div>
+                        <button class="bg-primary border-2 border-primary py-2 px-4 rounded-xl text-background drop-shadow-xl">
+                            <i class="fa fa-user pr-2"></i>
+                            เข้าสู่ระบบ
+                        </button>
+                    </div>
+                    <div>
+                        <button class="bg-background border-2 border-primary py-2 px-4 rounded-xl text-primary drop-shadow-xl">
+                            ลงทะเบียน
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main class="grid p-4 h-[89%]">
+            <div class="grid grid-cols-[60%_40%]">
+                <div class="flex items-center pl-8">
+                    <div class="flex flex-col space-y-6 max-w-[48rem]">
+                        <div class="text-6xl sriracha drop-shadow-lg">
+                            สัมผัสประสบการณ์
+                        </div>
+                        <div class="text-8xl text-primary drop-shadow-lg">
+                            การเดินทางที่ดีที่สุด
+                        </div>
+                        <div class=" drop-shadow-lg">
+                            LolazyTravel เป็นเว็บแอพพลิเคชั่นที่ตอบโจทย์ทั้งท่องเที่ยวและไลฟ์สไตล์ในเอเชียตะวันออกเฉียงใต้ คุณสามารถค้นหาและจองบริการด้านการท่องเที่ยวที่หลากหลาย บริการการท่องเที่ยวในท้องถิ่น และบริการด้านการเงิน ซึ่งมีบริการที่ครบครัน ทั้งบริการจองยานพาหนะสำหรับเดินทางประเภทต่างๆ ไม่ว่าไลฟ์สไตล์ของคุณจะเป็นยังไง เราก็อยู่ใกล้ๆ แค่คลิกก็เจอเลย!
+                        </div>
+                        <div>
+                            <button  class="bg-primary border-2 border-primary py-2 px-4 rounded-xl text-background drop-shadow-lg">
+                                <i class="fa fa-graduation-cap pr-2"></i>
+                                เรียนรู้เพิ่มเติม
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <div class="blurry_dot fixed top-auto right-1/2 -z-20 mix-blend-multiply"></div>
+                    <div class="blurry_dot fixed -top-[30rem] left-[20rem] -z-20 mix-blend-multiply"></div>
+                    <div class="blurry_dot fixed -top-[30rem] left-[60rem] -z-20 mix-blend-multiply"></div>
+                    <div class="blurry_dot fixed top-[9rem] left-[45rem] -z-20 mix-blend-multiply"></div>
+                    <img class="fixed -right-20 mix-blend-multiply" src="image/travel1.png" alt="img_travel_1" width="800px">
+                    <img class="fixed opacity-10 -top-40 -left-40 mix-blend-multiply" src="image/travel2.png" alt="img_travel_2" width="700px">
+                    <img class="fixed opacity-60 -bottom-10 left-0 mix-blend-multiply" src="image/travel3.png" alt="img_travel_3" width="800px">
+                </div>
+            </div>
+        </main>
+    </main>
+</body>
+</html>

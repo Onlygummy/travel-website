@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr&family=Sriracha&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mitr', sans-serif;
+}
+
+.primary-button {
+    padding: 0.5rem 2rem;
+    color: #010806;
+    background: #4BE1A4;
+    border-radius: 0.25rem;
+
+}
+
+.sriracha {
+    font-family: 'Sriracha', cursive;
+}
+
+.blurry_dot {
+    height: 1000px;
+    width: 1000px;
+    background-image: radial-gradient(closest-side, rgba(244, 75, 64, 0.25), #fff);
+}
