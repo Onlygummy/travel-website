@@ -1,0 +1,1 @@
+![alt text](https://github.com/LolazyX/travel_homepage/blob/main/preview.png?raw=true)
