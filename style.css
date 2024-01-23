@@ -12,6 +12,10 @@
     font-family: 'Mitr', sans-serif;
 }
 
+body {
+    height: 100dvh;
+}
+
 .primary-button {
     padding: 0.5rem 2rem;
     color: #010806;
